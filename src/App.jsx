@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <main className="lg:h-screen relative z-10">
-      <article className="m-4">
+      <article className="m-4 mb-0">
         <Navbar />
         <div className="py-12">
           <Card />
