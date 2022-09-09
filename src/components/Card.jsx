@@ -12,7 +12,7 @@ const Card = () => {
       </article>
       <article className="flex flex-col items-center lg:flex-row lg:px-12 lg:space-x-48 space-y-8 lg:space-y-0">
         <img className="w-full max-w-[500px]" src={CardImg} alt="NFTs" />
-        <button className="bg-yellow-300 hover:text-yellow-500 hover:scale-95 transition-all ease-in-out duration-500 uppercase font-bebas rounded py-3 px-4  lg:h-12 w-80 lg:w-40 hover:bg-[#292929]">
+        <button className="bg-yellow-300 hover:text-yellow-500 hover:scale-95 transition-all ease-in-out duration-500 uppercase font-bebas rounded py-3 px-4 lg:h-12 w-72 lg:w-40 hover:bg-[#292929]">
           Connect Wallet
         </button>
       </article>
