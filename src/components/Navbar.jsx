@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../assets/logo.png'
-import { FaGgCircle, FaTwitter, FaWallet } from "react-icons/fa"
+import { FaDiscord, FaTwitter, FaWallet } from "react-icons/fa"
 
 const Navbar = () => {
   return (
@@ -9,8 +9,8 @@ const Navbar = () => {
         <div className="flex flex-col lg:flex-row lg:space-x-8 items-center space-y-4 lg:space-y-0">
           <img className="w-16" src={Logo} alt="Naffles" />
           <div className="hidden lg:flex space-x-10 px-8 text-2xl">
-            <FaTwitter className="hover:text-[#8a8013] transition-colors ease-out duration-150 cursor-pointer" />
-            <FaGgCircle className='cursor-pointer' />
+            <FaTwitter className="hover:text-[#857c1b] transition-colors ease-out duration-150 cursor-pointer" />
+            <FaDiscord className='hover:text-[#857c1b] transition-colors ease-out duration-150 cursor-pointer' />
           </div>
         </div>
         <div className="flex items-center space-x-4 transition-colors ease-out duration-150 hover:text-[#8a8013] cursor-pointer">
