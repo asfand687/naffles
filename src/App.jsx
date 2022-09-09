@@ -8,7 +8,7 @@ function App() {
     <main className="lg:h-screen relative z-10">
       <article className="m-4">
         <Navbar />
-        <div className="pt-44 pb-12">
+        <div className="py-12">
           <Card />
         </div>
       </article>
